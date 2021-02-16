@@ -9,6 +9,6 @@ Easy Spring Boot Hibernate Web Application using MySQL Database
 ---
 
 ## License & Copyright
-© Hilal Turfullu, Yeditepe University
+© Hilal Turfullu
 
 Licensed under the [MIT LICENSE](LICENSE).
