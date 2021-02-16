@@ -1,5 +1,5 @@
 # AddressBook
-Easy Spring Boot Project using MySQL Database
+Easy Spring Boot Hibernate Web Application Project using MySQL Database
 
 ---
 
