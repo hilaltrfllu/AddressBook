@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Create New Address</title>
+</head>
+<body>
+<div style="text-align:center;">
+    <form action="#" th:action="@{/submit}" th:object="${address}" method="post">
+        <input type="hidden" th:field="*{id}">
+        <label>City Name</label>
+        <label>
+            <input type="text" th:field="*{city}"/>
+        </label><br>
+        <label>District</label>
+        <label>
+            <input type="text" th:field="*{district}">
+        </label><br>
+        <label>Plaka No</label>
+        <label>
+            <input type="text" th:field="*{plaka_no}">
+        </label><br>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+</body>
+</html>

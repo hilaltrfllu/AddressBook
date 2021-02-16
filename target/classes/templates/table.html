@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Address Table</title>
+</head>
+<body>
+<table>
+    <tr>
+       <!-- <th>ID</th>-->
+        <th>City</th>
+        <th>District</th>
+        <th>Plaka No</th>
+    </tr>
+
+    <tr  th:each="address : ${listAddress}">
+       <!-- <td th:text="${address.id}">ID</td>-->
+        <td th:text="${address.city}">City Name</td>
+        <td th:text="${address.district}">District</td>
+        <td th:text="${address.plaka_no}">Plaka No</td>
+    </tr>
+
+</table>
+</body>
+</html>
